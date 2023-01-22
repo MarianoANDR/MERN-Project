@@ -1,4 +1,4 @@
-// middleware: functions that execute during the request-response cicle 
+// middleware: functions that execute/run during the request-response cicle 
 
 const errorHandler = (err, req, res, next) => {
     //ternary/conditional
