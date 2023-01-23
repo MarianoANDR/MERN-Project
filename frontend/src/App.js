@@ -6,7 +6,7 @@ import Header from './components/Header';
 
 function App() {
   return (
-    <span>
+    <>
     <Router>
     <div className='container'>
       <Header /> 
@@ -17,7 +17,7 @@ function App() {
       </Routes>
     </div>
     </Router>
-    </span>
+    </>
   );
 } 
 
